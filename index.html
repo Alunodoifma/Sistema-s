@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Solar</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('Galaxia-scaled.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #fff;
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            text-align: center;
+        }
+        #solar-system {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+        }
+        .planet {
+            margin: 10px;
+            text-align: center;
+        }
+        .planet img {
+            width: 150px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .planet a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+        .planet a:hover {
+            color: #ffd700;
+        }
+        .planet h2 {
+            font-size: 1.2em;
+        }
+        .info {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            margin: 20px;
+        }
+        .info h2 {
+            margin-top: 0;
+        }
+        .info p {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sistema Solar</h1>
+    </header>
+
+   
+    
+    
+
+    <div class="planet" id="sol">
+        <img src="sol.jpg" alt="Sol">
+        <h2 class="zoom-text"><a href="https://pt.wikipedia.org/wiki/Sol">Sol</a></h2>
+    </div>
+    <div class="planet" id="terra">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg" alt="Terra">
+        <h2 class="zoom-text"><a href="https://pt.wikipedia.org/wiki/Terra">Terra</a></h2>
+    </div>
+    <div class="planet" id="marte">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/OSIRIS_Mars_true_color.jpg" alt="Marte">
+        <h2 class="zoom-text"><a href="https://pt.wikipedia.org/wiki/Marte_(planeta)">Marte</a></h2>
+    </div>
+    
+</body>
+</html>

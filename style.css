@@ -1,0 +1,11 @@
+.planet img:hover {
+    transform: scale(1.2);
+    transition: transform 0.9s ease; 
+}
+
+.zoom-text:hover {
+    transform: scale(1.2);
+    transition: transform 0.9s ease;
+}
+
+
